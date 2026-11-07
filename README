@@ -1,0 +1,40 @@
+# Lab 6: Application of Sequence Transformer and Vision Transformer
+
+**Course:** ECM-402 – AI for Signal Processing Applications  
+**Institution:** National Institute of Technology Andhra Pradesh  
+**Department:** Electronics and Communication Engineering
+
+## Objective
+Automatic Modulation Classification (AMC) using Sequence Transformer and Vision Transformer architectures.
+
+## Dataset
+RadioML2016.10a dataset containing I-Q signal samples of different modulation schemes at different SNR levels.
+
+## Models Implemented
+1. Sequence Transformer
+2. Vision Transformer (ViT)
+
+## Model Parameters
+- Embedding dimension: 128
+- Attention heads: 8
+- Transformer encoder layers: 4
+- Learning rate: 0.0002
+- Training epochs: 3
+
+## Evaluation
+- SNR-wise classification accuracy
+- Accuracy versus SNR plots
+- Comparison of both Transformer architectures
+
+## Files
+- `Lab6.ipynb` – Implementation notebook
+- `Sequence_Transformer_Accuracy.png`
+- `Vision_Transformer_Accuracy.png`
+- `Transformer_Comparison.png`
+- `Lab6_Results.csv`
+
+## Tools and Libraries
+Python, PyTorch, NumPy, Matplotlib, Scikit-learn, Google Colab.
+
+## Note
+The models in this submission were trained for 3 epochs as a time-constrained implementation.
